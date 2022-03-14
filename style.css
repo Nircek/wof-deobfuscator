@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    width: 100vw;
+    font-size: 1.4em;
+    /* font-size: 4.76vw; /* add when Mozilla pulls itself together: calc(3.14vh + 1.62vh) */
+    text-align: center;
+}
+pre {
+    letter-spacing: .4em;
+    font-size: .8vw;
+}
+small, q {
+    display: block;
+}
+q {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    text-align: center;
+}
+q:after {
+   content: none;
+}
+q:before {
+   content: none;
+}
+
